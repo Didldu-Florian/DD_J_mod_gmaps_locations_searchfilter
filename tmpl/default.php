@@ -53,7 +53,7 @@ $input = $app->input;
             </div>
 	        <?php endif; ?>
             <div class="btn-group pull-left">
-                <button class="btn hasTooltip" type="submit" id="dd_gmaps_submit" data-original-title="<?php echo JText::_('JSEARCH_FILTER_SUBMIT'); ?>"></button>
+                <button class="btn hasTooltip" type="button" id="dd_gmaps_submit" data-original-title="<?php echo JText::_('JSEARCH_FILTER_SUBMIT'); ?>"></button>
                 <button class="btn hasTooltip" type="button" id="dd_gmaps_reset" data-original-title="<?php echo JText::_('JSEARCH_FILTER_CLEAR'); ?>"></button>
             </div>
 	        <?php
